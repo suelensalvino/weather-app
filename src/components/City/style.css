@@ -1,0 +1,82 @@
+.weather-info {
+  text-align: center;
+  align-items: center;
+  margin: 20px auto;
+}
+
+.snowy {
+  background-color: #BFBFBF;
+  color: black;
+}
+
+.rainy {
+  background-color: #5D6673;
+  color: #fff;
+}
+
+.sunny {
+  background-color: #41B3BF;
+  color: #fff;
+}
+
+.hot {
+  background-color: #FFA500;
+  color: #fff;
+}
+
+h1 {
+  text-transform: uppercase;
+}
+
+.current-weather {
+  font-size: large;
+}
+
+img {
+  height: 90px;
+  width: 90px;
+}
+
+.min-max {
+  display: flex;
+  justify-content: center;
+  font-size: small;
+}
+
+.min-max p {
+  margin: 0;
+  padding: 0 10px;
+}
+
+.weather-info .back-link {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  width: 20px;
+  height: 20px;
+}
+
+.time {
+  display: flex;
+  margin-bottom: 20px;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.feels-like {
+  display: flex;
+  margin-bottom: 20px;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.feels-like .title {
+  opacity: 0.5;
+}
+
+.time>div,
+.feels-like>div {
+  flex: 1;
+  text-align: center;
+  max-width: 200px;
+}
